@@ -69,6 +69,7 @@ const IndexComponent = () => {
   i18n.changeLanguage('nl');
   return (
     <Page>
+      <h1>test</h1>
       <Index />
     </Page>
   );

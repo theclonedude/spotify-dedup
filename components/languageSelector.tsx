@@ -6,7 +6,7 @@ const LanguageSelector = () => {
     <div className="footer">
       <p>
         Change language to{' '}
-        <Link prefetch={false} href="/de/">
+        <Link prefetch={false} href="/" locale="de">
           <a>German</a>
         </Link>
         ,{' '}
@@ -14,27 +14,27 @@ const LanguageSelector = () => {
           <a>English</a>
         </Link>
         ,{' '}
-        <Link prefetch={false} href="/es/">
+        <Link prefetch={false} href="/" locale="es">
           <a>Spanish</a>
         </Link>
         ,{' '}
-        <Link prefetch={false} href="/fr/">
+        <Link prefetch={false} href="/" locale="fr">
           <a>French</a>
         </Link>
         ,{' '}
-        <Link prefetch={false} href="/it/">
+        <Link prefetch={false} href="/" locale="it">
           <a>Italian</a>
         </Link>
         ,{' '}
-        <Link prefetch={false} href="/nl/">
+        <Link prefetch={false} href="/" locale="nl">
           <a>Dutch</a>
         </Link>
         ,{' '}
-        <Link prefetch={false} href="/pt/">
+        <Link prefetch={false} href="/" locale="pt">
           <a>Portuguese</a>
         </Link>
         ,{' '}
-        <Link prefetch={false} href="/sv/">
+        <Link prefetch={false} href="/" locale="sv">
           <a>Swedish</a>
         </Link>
       </p>
